@@ -9,11 +9,11 @@
 // 日時がおかしい場合、PHPのタイムゾーン設定を行ってください
 
 $date = new DateTime('now');
-echo $date->format('Y年m月d日 H時i分s秒').'<br>';
+echo $date->format('Y年m月d日 H時i分s秒')."\n";
 
-echo date('Y年m月d日 H時i分s秒',strtotime("+3 day")).'<br>';
+echo date('Y年m月d日 H時i分s秒',strtotime("+3 day"))."\n";
 
-echo date('Y年m月d日 H時i分s秒',strtotime("-12 hour")).'<br>';
+echo date('Y年m月d日 H時i分s秒',strtotime("-12 hour"))."\n";
 
 date_default_timezone_set('Asia/Tokyo');
 $today = date("Y-m-d");

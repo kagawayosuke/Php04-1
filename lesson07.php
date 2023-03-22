@@ -9,7 +9,7 @@ foreach($country as $key => $value){
  echo '「 '.$key;
  echo ' : '.$value;
  echo '」 ';
- echo '<br>';
+ echo "\n";
 }
 
 ?>

@@ -14,5 +14,5 @@ $array = [
  'gender'=>['男']
 ];
 
-echo $array['name'][0],'<br>', $array['age'][0].'・', $array['gender'][0]
+echo $array['name'][0],"\n", $array['age'][0].'歳・', $array['gender'][0]
 ?>

@@ -10,7 +10,7 @@ $country = ['日本、アメリカ、イギリス、フランス'=>'東京、ワ
 
 foreach($country as $key => $value){
  echo $key;
- echo '<br>';
+ echo "\n";
  echo $value;
 }
 
