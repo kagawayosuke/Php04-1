@@ -3,6 +3,6 @@
 // 縦に各数字を出力してください。
 
 for ($num = 1; $num < 101; $num++){
- echo $num.'<br />';
+ echo $num."\n";
 }
 ?>
