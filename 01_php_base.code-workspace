@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../02_php_loop"
+		},
+		{
+			"path": "../03_php_algo"
+		}
+	],
+	"settings": {}
+}
