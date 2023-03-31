@@ -15,7 +15,7 @@ $array = [ ['田中',25,'男'], ['鈴木',20,'男'], ['佐藤',23,'女'] ];
 
 foreach($array as $vals){
     echo $vals[0].$vals[1].$vals[2];
-    echo '<br>';
+    echo "\n";
 }
 echo $array[1][1];
 
