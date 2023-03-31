@@ -26,7 +26,7 @@ $country = [
 
 foreach ($country as $key => $value){
 
-echo  $key. 'の首都は'. $value. 'です。"\n"';
+echo  $key. 'の首都は'. $value. 'です。'."\n";
 
 }
 
